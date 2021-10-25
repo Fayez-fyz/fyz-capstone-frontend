@@ -53,7 +53,7 @@ const ForgotPassword = () => {
       <div className="row py-4 glass text-light">
         <div className="col text-center">
         <h1 className="display-5">
-            <b>Login</b>
+            <b>Forgot Password</b>
           </h1>
         </div>
       </div>
@@ -80,7 +80,7 @@ const ForgotPassword = () => {
         {" "}
         <p>Congrats!, Now you can login with new password</p>
         <Link href="/login">
-          <a className="btn btn-sm btn-primary">Forgot Password</a>
+          <a className="btn btn-sm btn-primary">Login</a>
         </Link>
       </Modal>
       <div className="row">
