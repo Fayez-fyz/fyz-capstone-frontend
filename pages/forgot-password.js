@@ -80,7 +80,7 @@ const ForgotPassword = () => {
         {" "}
         <p>Congrats!, Now you can login with new password</p>
         <Link href="/login">
-          <a className="btn btn-sm btn-primary">Login</a>
+          <a className="btn btn-sm btn-primary">Forgot Password</a>
         </Link>
       </Modal>
       <div className="row">
