@@ -20,12 +20,13 @@ const index = () => {
           Fyzbook helps you connect and share with the people in your life.
         </p>
       </div>
+      <br/>
       <div className="d-flex justify-content-center py-5">
         <Link href="/login">
-          <a className="btn btn-outline-primary btn-lg mx-3">Login</a>
+          <a className="btn btn-outline-success btn-lg mx-3">Login</a>
         </Link>
         <Link href="/register">
-          <a className="btn btn-outline-warning btn-lg mx-3">Register</a>
+          <a className="btn btn-outline-primary btn-lg mx-3">Register</a>
         </Link>
       </div>
     </div>
