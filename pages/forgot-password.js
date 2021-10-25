@@ -50,9 +50,11 @@ const ForgotPassword = () => {
   if (state && state.token) router.push("/");
   return (
     <div className="container-fluid">
-      <div className="row py-4 bg-secondary text-light">
+      <div className="row py-4 glass text-light">
         <div className="col text-center">
-          <h2>Forget Password</h2>
+        <h1 className="display-5">
+            <b>Login</b>
+          </h1>
         </div>
       </div>
       <div className="row my-4">
