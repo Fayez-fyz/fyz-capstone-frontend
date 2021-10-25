@@ -1,0 +1,22 @@
+h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+}
+
+img {
+  width: 700px;
+}
+
+.active {
+  background-color: #677381;
+}
+.glass {
+  background-image: radial-gradient(
+    circle,
+    #677381,
+    #53545f,
+    #3b383e,
+    #221f21,
+    #000000
+  );
+}
