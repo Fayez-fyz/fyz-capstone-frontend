@@ -39,7 +39,7 @@ const Nav = () => {
                 {state && state.user && state.user.name}
               </button>
               <ul
-                className="dropdown-menu dropdown-menu-dark dropdown-menu-lg-end"
+                className="dropdown-menu col-1 position-absolute dropdown-menu-dark dropdown-menu-end"
                 aria-labelledby="navbarDarkDropdownMenuLink"
               >
                 <li>
