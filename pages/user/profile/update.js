@@ -103,7 +103,7 @@ const ProfileUpdate = () => {
         <div className="col-lg-4 offset-lg-4">
           <label className="d-flex justify-content-center h1">
             {image && image.url ? (
-              <Avatar size={120} src={image.url} className="mt-1" />
+              <Avatar size={120} src={image.url} className="mt-1" style={{ cursor: "pointer" }} />
             ) : uploading ? (
               <LoadingOutlined className="h1 mt-2" />
             ) : (
