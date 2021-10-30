@@ -69,7 +69,7 @@ const Nav = () => {
                 <li>
                   <a
                     onClick={logout}
-                    className="nav-link dropdown-item "
+                    className="btn btn-danger w-100"
                     href="#"
                   >
                     Logout
