@@ -5,6 +5,7 @@ import PostForm from "../../components/forms/PostForm";
 import { useRouter } from "next/router";
 import axios from "axios";
 import { toast } from "react-toastify";
+import { Card } from "antd";
 import Link from "next/link";
 import PostList from "../../components/cards/PostList";
 import People from "../../components/cards/People";
@@ -234,7 +235,9 @@ const dashboard = () => {
                 <a className="h6">Following ({state.user.following.length})</a>
               </Link>
             )}
+            <Card hoverable title="People may you know" className=' my-4'>
             <People people={people} handleFollow={handleFollow} />
+            </Card>
           </div>
         </div>
         <Modal
