@@ -6,6 +6,7 @@ import { useRouter } from "next/router";
 import { UserContext } from "../../context";
 import axios from "axios";
 import Link from "next/link";
+import { toast } from "react-toastify";
 import { RollbackOutlined } from "@ant-design/icons";
 const Following = () => {
   const [state, setState] = useContext(UserContext);
@@ -21,7 +22,7 @@ const Following = () => {
   const fetchFollowing = async () => {
     try {
       const { data } = await axios.get("/user-following");
-      console.log("follow response", data);
+      // console.log("follow response", data);
       setPeople(data);
     } catch (error) {
       console.log(error);
