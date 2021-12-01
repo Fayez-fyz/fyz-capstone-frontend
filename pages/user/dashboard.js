@@ -235,7 +235,7 @@ const dashboard = () => {
                 <a className="h6">Following ({state.user.following.length})</a>
               </Link>
             )}
-            <Card hoverable title="People may you know" className='h-25'>
+            <Card hoverable title="People may you know" className='my-3'>
             <People people={people} handleFollow={handleFollow} />
             </Card>
           </div>
