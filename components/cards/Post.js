@@ -40,7 +40,8 @@ const Post = ({
           </div>
           <div className="card-body">{renderHTML(post.content)}</div>
           <div className="card-footer">
-            {post.image && <PostImage url={post.image.url} />}
+            {state &&
+              state.user && post.image && <PostImage url={post.image.url} />}
             <div className="d-flex">
               {state &&
               state.user &&
