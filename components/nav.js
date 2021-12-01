@@ -66,7 +66,7 @@ const Nav = () => {
                     </a>
                   </Link>
                 </li>
-                <li>
+                <li >
                   <a
                     onClick={logout}
                     className="btn btn-danger w-100"
